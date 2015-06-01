@@ -1,0 +1,37 @@
+﻿Build started 6/1/2015 12:12:05 PM.
+     1>Project "C:\Users\sony\Documents\Visual Studio 2010\Projects\DogyardBookStore\DogyardBookStore\DogyardBookStore.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DogyardBookStore.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\Book.cpp source\BookStore.cpp source\CmdLineParser.cpp source\Customer.cpp source\GBookStore.cpp source\Test.cpp source\Transaction.cpp
+         Transaction.cpp
+         Test.cpp
+         GBookStore.cpp
+         Customer.cpp
+         CmdLineParser.cpp
+         BookStore.cpp
+     1>c:\users\sony\documents\visual studio 2010\projects\dogyardbookstore\dogyardbookstore\source\bookstore.cpp(350): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sony\documents\visual studio 2010\projects\dogyardbookstore\dogyardbookstore\source\bookstore.cpp(367): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sony\documents\visual studio 2010\projects\dogyardbookstore\dogyardbookstore\source\bookstore.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sony\documents\visual studio 2010\projects\dogyardbookstore\dogyardbookstore\source\bookstore.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+         Book.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sony\Documents\Visual Studio 2010\Projects\DogyardBookStore\Debug\DogyardBookStore.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DogyardBookStore.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\sony\Documents\Visual Studio 2010\Projects\DogyardBookStore\Debug\DogyardBookStore.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sony\Documents\Visual Studio 2010\Projects\DogyardBookStore\Debug\DogyardBookStore.lib" /MACHINE:X86 Debug\Book.obj
+         Debug\BookStore.obj
+         Debug\CmdLineParser.obj
+         Debug\Customer.obj
+         Debug\GBookStore.obj
+         Debug\Test.obj
+         Debug\Transaction.obj
+         DogyardBookStore.vcxproj -> C:\Users\sony\Documents\Visual Studio 2010\Projects\DogyardBookStore\Debug\DogyardBookStore.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\sony\Documents\Visual Studio 2010\Projects\DogyardBookStore\Debug\DogyardBookStore.exe;#1" /manifest Debug\DogyardBookStore.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DogyardBookStore.unsuccessfulbuild".
+         Touching "Debug\DogyardBookStore.lastbuildstate".
+     1>Done Building Project "C:\Users\sony\Documents\Visual Studio 2010\Projects\DogyardBookStore\DogyardBookStore\DogyardBookStore.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.05

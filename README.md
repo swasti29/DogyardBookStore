@@ -1,2 +1,0 @@
-# DogyardBookStore
-Knowlarity problem statement
